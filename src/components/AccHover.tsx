@@ -1,4 +1,5 @@
 import { CalendarIcon } from "@radix-ui/react-icons"
+import { IoSettingsOutline } from "react-icons/io5";
 
 
 import {
@@ -41,7 +42,10 @@ export function AccCard() {
                             </span>
                         </div>
                         <div className="pt-2">
-                            <Button variant="destructive">Logout</Button>
+                            <Button variant="destructive" className="mr-2">Logout</Button>
+                            <Button className="bg-green-600 hover:bg-green-500">
+                                <IoSettingsOutline/>
+                            </Button>
                         </div>
                     </div>
                 </div>
