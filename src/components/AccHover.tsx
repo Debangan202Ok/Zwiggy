@@ -11,6 +11,8 @@ import {
     HoverCardContent,
     HoverCardTrigger,
 } from "@/components/ui/hover-card"
+import { Button } from "@/components/ui/button"
+
 
 export function AccCard() {
     return (
@@ -37,6 +39,9 @@ export function AccCard() {
                             <span className="text-xs text-muted-foreground">
                                 Joined December 2021
                             </span>
+                        </div>
+                        <div className="pt-2">
+                            <Button variant="destructive">Logout</Button>
                         </div>
                     </div>
                 </div>
