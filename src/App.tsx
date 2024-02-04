@@ -1,11 +1,13 @@
+import { Banner } from "./components/Banner";
+import { Menus } from "./components/Menus";
 import Navbar from "./components/Navbar";
-import { CarouselDemo } from "./components/Caruosal";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <CarouselDemo />
+      <Banner/>
+      <Menus/>
     </>
   )
 }

@@ -1,12 +1,12 @@
 import { Input } from "@/components/ui/input"
-import { BsCart4 } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { AccCard } from "./AccHover";
+import { CartSheet } from "./Cartsheet";
 
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between px-12  items-center py-5 cursor-pointer border-b-[0.5px]">
+        <div className="flex justify-between px-12  items-center py-4 cursor-pointer border-b-[0.5px]">
             <div><span className="font-bold text-xl">Zwiggy</span></div>
             <div className="relative">
                 <Input type="search" placeholder="Search Resturant Name" className="w-[250px]" />
@@ -14,7 +14,9 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className="flex items-center">
-                    <li className="text-3xl mr-4 " ><BsCart4 /></li>
+                    <li className="text-3xl mr-8 " >
+                        <CartSheet />
+                    </li>
                     <li>
                         <AccCard />
                     </li>

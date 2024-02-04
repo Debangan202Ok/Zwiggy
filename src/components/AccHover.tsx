@@ -24,7 +24,7 @@ export function AccCard() {
                     <AvatarFallback>DP</AvatarFallback>
                 </Avatar>
             </HoverCardTrigger>
-            <HoverCardContent className="w-80">
+            <HoverCardContent className="w-80 mt-3">
                 <div className="flex justify-between space-x-4">
                     <Avatar>
                         <AvatarImage src="https://github.com/shadcn.png" />
@@ -42,7 +42,7 @@ export function AccCard() {
                             </span>
                         </div>
                         <div className="pt-2">
-                            <Button variant="destructive" className="mr-2">Logout</Button>
+                            <Button variant="destructive" className="mr-2 hover:bg-red-400">Logout</Button>
                             <Button className="bg-green-600 hover:bg-green-500">
                                 <IoSettingsOutline/>
                             </Button>
